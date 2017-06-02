@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_setting"
+            android:title="@string/setting"/>
+
+        <item android:id="@+id/nav_change_nick"
+            android:title="@string/change_nickname" />
+
+        <item android:id="@+id/nav_change_avater"
+            android:title="@string/change_avater"/>
+
+        <item android:id="@+id/nav_friend_list"
+            android:title="@string/friend_list"/>
+        <!--
+        <item android:id="@+id/nav_test"
+            android:title="@string/test"/>
+        -->
+        <item android:id="@+id/nav_quit"
+            android:title="@string/quit"/>
+
+        <item android:id="@+id/nav_check_update"
+            android:title="@string/check_update"/>
+    </group>
+</menu>

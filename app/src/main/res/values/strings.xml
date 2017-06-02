@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">解忧人</string>
+    <string name="user_name">手机号</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="ack_password">确认密码</string>
+    <string name="login">登录</string>
+    <string name="instant_register">立即注册</string>
+    <string name="register">注册</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="hug">抱抱</string>
+    <string name="comment">评论</string>
+    <string name="scut">华南理工大学大学城校区</string>
+    <string name="mainpage">主页</string>
+    <string name="overlappingsound">烦恼</string>
+    <string name="topic">话题</string>
+    <string name="news">消息</string>
+    <string name="setting">设置</string>
+    <string name="title">标题</string>
+    <string name="details">详情</string>
+    <string name="publish">发布</string>
+    <string name="anonymous">匿名发布</string>
+    <string name="quit">退出登录</string>
+    <string name="tell_annoyance">说出你的烦恼</string>
+    <string name="change_nickname">修改昵称</string>
+    <string name="change_avater">修改头像</string>
+    <string name="check_update">检查更新</string>
+    <string name="send">发送</string>
+    <string name="save">保存</string>
+    <string name="friend_list">好友列表</string>
+    <string name="new_friend">新的朋友</string>
+    <string name="contact">联系人</string>
+    <string name="label">听见你的声音，宣泄你的烦恼</string>
+    <string name="fm">FM</string>
+    <string name="test">测试</string>
+    <string name="article">文章</string>
+    <string name="search">查询</string>
+    <string name="submitanswer">提交回答</string>
+    <string name="hottopic">热门话题</string>
+    <string name="expand">全文</string>
+
+    <string name="add_avator">头像</string>
+    <string name="add_nick">昵称</string>
+    <string name="add_name">账号</string>
+    <string name="agree">接受</string>
+    <string name="chat">聊天</string>
+    <string name="add_friend">添加好友</string>
+    <string name="set_notify">接收新消息通知</string>
+    <string name="set_myinfo">个人资料</string>
+    <string name="set_blacklist">黑名单</string>
+    <string name="set_voice">声音</string>
+    <string name="set_vibrate">震动</string>
+    <string name="longclick_speak">长按说话</string>
+    <string name="picture">照片</string>
+    <string name="camera">拍摄</string>
+    <string name="location">位置</string>
+    <string name="voice_up_tips">手指上滑,取消发送</string>
+    <string name="voice_cancel_tips">松开手指，取消发送</string>
+    <string name="voice_seconds_tips">还可以说%1$s秒</string>
+    <string name="voice_short_tips">录音时间太短</string>
+    <string name="topictitle">话题讨论</string>
+    <string name="topic_hot">热门话题</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">该列表空空如也，快去发布信息吧！</string>
+</resources>

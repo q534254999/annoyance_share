@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shares.AddAnswerActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/add_annoyance_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue">
+
+        <TextView
+            android:text="@string/submitanswer"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/details"/>
+
+        <EditText
+android:gravity="start"
+            android:id="@+id/add_annoyance_details"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:inputType="textMultiLine"
+            android:background="@android:drawable/edit_text"
+            android:maxLines="10"
+            android:minLines="2"
+            android:scrollbars="vertical"
+            />
+        <Button
+            android:id="@+id/publish_annoyance"
+            android:text="@string/publish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shape"/>
+    </LinearLayout>
+</LinearLayout>
