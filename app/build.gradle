@@ -22,7 +22,23 @@ android {
     }
     signingConfigs {
         release {
+            //此处加载签名文件，若报错则注释掉release整段和buildTypes下的debug
+            //加载资源
+            Properties properties = new Properties()
+            InputStream inputStream = project.rootProject.file('local.properties').newDataInputStream() ;
+            properties.load( inputStream )
 
+            //读取文件
+            def KEY_PATH = properties.getProperty('KEY_PATH')
+            storeFile file(KEY_PATH)
+
+            //读取字段
+            def KEY_PASS = properties.getProperty('KEY_PASS')
+            def ALIAS_NAME = properties.getProperty('ALIAS_NAME')
+            def ALIAS_PASS = properties.getProperty('ALIAS_PASS')
+            storePassword KEY_PASS
+            keyAlias ALIAS_NAME
+            keyPassword ALIAS_PASS
         }
         debug {
 
@@ -36,7 +52,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         debug {
-
+            signingConfig signingConfigs.release
         }
     }
     compileOptions {
